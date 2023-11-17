@@ -1,0 +1,39 @@
+html,
+body {
+    /* По умолчанию высота html и body определяется контентом. */
+    height: 100%;
+}
+
+body {
+    /* В большинстве браузеров body имеет margin равный 8px. */
+    margin: 0;
+}
+
+.outer {
+    display: flex;
+}
+
+.inner {
+    background-color: green;
+    margin: 15px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+.inner:first-child {
+    border-top-left-radius: 35px;
+}
+
+.inner:last-child {
+    border-bottom-right-radius: 35px;
+}
+
+.inner:hover {
+    background: linear-gradient(45deg, orange, red);
+    cursor: pointer;
+    transition: transform 1s ease;
+    transform: scaleX(1.5) scaleY(1.5);
+}

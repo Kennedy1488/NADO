@@ -1,0 +1,42 @@
+body {
+  height: 550px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.outer {
+  border: 3px solid black;
+  background-color: lightgrey;
+  width: 500px;
+  height: 500px;
+}
+
+.inner {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.inner--red {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.inner--green {
+  background-color: green;
+}
+
+.inner:active {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 25px;
+  right: 25px;
+  top: 25px;
+  bottom: 25px;
+}

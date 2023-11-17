@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.img-wrap{
+    width: 1500px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.block{
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.block:hover{
+    transform: scaleX(1.5) scaleY(1.5);
+    background: linear-gradient(135deg, orange, red); border-radius: 5px;
+}
